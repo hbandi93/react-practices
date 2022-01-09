@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ButtonWithClass from './ButtonWithClass';
+import ButtonWithHooks from './ButtonWithHooks';
 
 function App() {
   return (
     <div className="App">
-      <button>Kattints</button>
+      <ButtonWithClass />
+      <ButtonWithHooks />
     </div>
   );
 }
